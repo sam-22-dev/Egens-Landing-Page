@@ -34,3 +34,19 @@ body{
     padding: 17px 41px;
     border-radius: 50px;
 }
+
+
+
+
+/* Transparent by default */
+#navbar {
+    transition: background-color 0.4s ease;
+    background-color: transparent;
+}
+
+/* Background after scroll */
+    .navbar-scrolled {
+    background-color: #ffffff !important;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
