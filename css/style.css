@@ -1,0 +1,13 @@
+body{
+    background-color: #e9ecf4;
+    font-family: "Jost", sans-serif;
+}
+
+.nav-link{
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.nav-item{
+    margin-right: 40px;
+}
