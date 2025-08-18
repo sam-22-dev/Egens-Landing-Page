@@ -1,6 +1,9 @@
 body{
-    background-color: #e9ecf4;
     font-family: "Jost", sans-serif;
+}
+
+.banner-bg{
+    background-color: #e9ecf4;
 }
 
 .nav-link{
@@ -38,15 +41,36 @@ body{
 
 
 
-/* Transparent by default */
+
 #navbar {
     transition: background-color 0.4s ease;
     background-color: transparent;
 }
 
-/* Background after scroll */
     .navbar-scrolled {
     background-color: #ffffff !important;
     padding-top: 10px;
     padding-bottom: 10px;
+}
+
+
+
+.feature-icon{
+    background-color: #dad4ea;
+    padding: 23px;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 3;
+}
+
+
+.image-section{
+    min-height: 451px;
+}
+
+
+.seperator{
+    width: 2% !important;
 }

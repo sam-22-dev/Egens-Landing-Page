@@ -20,7 +20,7 @@
         <div class="container">
                 <nav class="navbar navbar-expand-lg">
                 <div class="container-fluid">
-                    <a class="navbar-brand" href="#">Navbar</a>
+                    <a class="navbar-brand" href="#">EGENS</a>
                     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                     </button>
@@ -50,33 +50,93 @@
                 </nav>
         </div>
         </div>
-
 <!-- End Navbar -->
 
 <!-- Start Banner 1 -->
-
-<div class="container my-5 py-5">
-    <div class="row py-5">
-        <div class="col-lg-5">
-            <h4 class="banner-subtitle">WE ARE EGENS</h4>
-            <h1 class="banner-title">We Design Solution For Business</h1>
-            <p class="banner-text py-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor tempore architecto sint aperiam in exercitationem</p>
-            <a class="banner-btn" href="">Read More</a>
+        <div class="banner-bg">
+            <div class="container py-5">
+            <div class="row py-5">
+                <div class="col-lg-5">
+                    <h4 class="banner-subtitle">WE ARE EGENS</h4>
+                    <h1 class="banner-title">We Design Solution For Business</h1>
+                    <p class="banner-text py-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor tempore architecto sint aperiam in exercitationem</p>
+                    <a class="banner-btn" href="">Read More</a>
+                </div>
+                <div class="col-lg-1">
+                </div>
+                <div class="col-lg-6">
+                    <img src="img/img-three.webp" class="img-fluid" alt="">
+                </div>
+            </div>
+            </div>
         </div>
-        <div class="col-lg-1">
-        </div>
-        <div class="col-lg-6">
-            <img src="img/img-three.webp" class="img-fluid" alt="">
-        </div>
-    </div>
-</div>
-
 <!-- End Banner 1 -->
 
+        <section>
+
+<!-- Start Features -->
+            <div class="container my-5">
+                <div class="row py-5">
+                    <div class="col-lg-4">
+                        <div class="row">
+                            <div class="col-lg-4 py-4">
+                                <div class="feature-icon">
+                                    <img src="img/icon-14.webp" alt="">
+                                </div>
+                            </div>
+                            <div class="col-lg-8 ">
+                                <h2 class="py-4">Creative Strategy</h2>
+                                <p>Sed do eiusmod tempor incidiunt ation ullamco laboris nisi ut aloniq uip ex ea com consequat.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="row">
+                            <div class="col-lg-4 py-4">
+                                <div class="feature-icon">
+                                    <img src="img/icon-15.webp" alt="">
+                                </div>
+                            </div>
+                            <div class="col-lg-8 ">
+                                <h2 class="py-4">Digital Solution</h2>
+                                <p>Sed do eiusmod tempor incidiunt ation ullamco laboris nisi ut aloniq uip ex ea com consequat.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="row">
+                            <div class="col-lg-4 py-4">
+                                <div class="feature-icon">
+                                    <img src="img/icon-16.webp" alt="">
+                                </div>
+                            </div>
+                            <div class="col-lg-8 ">
+                                <h2 class="py-4">Analysis & Report</h2>
+                                <p>Sed do eiusmod tempor incidiunt ation ullamco laboris nisi ut aloniq uip ex ea com consequat.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+<!-- End Features -->
 
 
+<!-- Start Images -->
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8">
+                        <img class="image-section" src="img/about-3-1.webp" alt="">
+                    </div>
+                    <div class="col-lg-1 seperator">
+                    </div>
+                    <div class="col-lg-3">
+                        <img class="image-section" src="img/about-3-2.webp" alt="">
+                    </div>
+                </div>
+            </div>
 
-
+        </section>
+<!-- End Images -->
 
 
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js" integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q" crossorigin="anonymous"></script>
@@ -85,7 +145,7 @@
         const navbar = document.getElementById("navbar");
 
         window.addEventListener("scroll", () => {
-            if (window.scrollY > 50) { // when scroll > 50px
+            if (window.scrollY > 50) {
             navbar.classList.add("navbar-scrolled");
             } else {
             navbar.classList.remove("navbar-scrolled");
