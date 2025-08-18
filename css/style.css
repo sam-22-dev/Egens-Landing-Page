@@ -11,3 +11,26 @@ body{
 .nav-item{
     margin-right: 40px;
 }
+
+.banner-subtitle{
+    color: #7153d9;
+    font-size: 24px;
+    font-weight: 500;
+}
+.banner-title{
+    font-size: 72px;
+    font-weight: 500;
+}
+.banner-text{
+    font-size: 24px;
+    font-weight: 400;
+    color: #54545f;
+}
+.banner-btn{
+    text-decoration: none;
+    display: inline-block;
+    color: white;
+    background: linear-gradient(135deg, #4526b1 0%, #5435be 45%, #7153d9 66%);
+    padding: 17px 41px;
+    border-radius: 50px;
+}
