@@ -96,3 +96,23 @@ body{
     font-size: 60px;
     font-weight: 500;
 }
+
+
+.feature-title a{
+    text-decoration: none;
+    color: black;
+    font-size: 25px;
+}
+
+.card-link{
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    font-weight: 450;
+}
+
+.service-card{
+    padding: 60px 35px;
+    border-radius: 20px;
+    box-shadow: 0px 12px 42px rgba(69, 38, 177, 0.1), 11px 6px 25px rgba(69, 38, 177, 0.1);
+}
