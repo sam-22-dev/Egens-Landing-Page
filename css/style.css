@@ -35,7 +35,7 @@ body{
     display: inline-block;
     color: white;
     background: linear-gradient(135deg, #4526b1 0%, #5435be 45%, #7153d9 66%);
-    padding: 17px 41px;
+    padding: 14px 41px;
     border-radius: 50px;
 }
 
@@ -137,8 +137,9 @@ body{
 
 .mybtn-white{
     background-color: #e2c4ff;
+    font-weight: 500;
     color: black;
-    padding: 17px 41px;
+    padding: 14px 41px;
     border-radius: 50px;
     text-decoration: none;
     display: inline-block;
@@ -152,4 +153,21 @@ body{
     font-size: 20px;
     font-weight: 400;
     color: black;
+}
+
+.blog-subtitle{
+    font-size: 16px;
+    font-weight: 500;
+    color: #7153d9;
+}
+
+.blog-title{
+    font-size: 21px;
+    font-weight: 500;
+}
+
+.blog-p{
+    font-size: 18px;
+    font-weight: 400;
+    color: #797980;
 }
