@@ -19,6 +19,7 @@ body{
     color: #7153d9;
     font-size: 24px;
     font-weight: 500;
+    letter-spacing: 6px;
 }
 .banner-title{
     font-size: 72px;
@@ -91,6 +92,7 @@ body{
     color: #7153d9;
     font-size: 20px;
     font-weight: 500;
+    letter-spacing: 6px;
 }
 .section-title{
     font-size: 60px;
@@ -115,4 +117,29 @@ body{
     padding: 60px 35px;
     border-radius: 20px;
     box-shadow: 0px 12px 42px rgba(69, 38, 177, 0.1), 11px 6px 25px rgba(69, 38, 177, 0.1);
+}
+
+.mycontainer{
+    background-color: #4526b1;
+    color: #ffffff !important;
+}
+
+.mycontainer h4{
+    font-size: 20px;
+    font-weight: 500;
+    letter-spacing: 6px;
+}
+
+.mycontainer p{
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.mybtn-white{
+    background-color: #e2c4ff;
+    color: black;
+    padding: 17px 41px;
+    border-radius: 50px;
+    text-decoration: none;
+    display: inline-block;
 }
